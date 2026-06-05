@@ -119,7 +119,7 @@ def main():
     show_available_stocks()
     portfolio = get_portfolio_from_user()
     if not portfolio:
-        print("\n  Nothing to display. Goodbye!")
+        print("\n  Nothing to display. Goodbye!, See Ya!")
         return
     display_summary(portfolio)
     print("\nSave results?")
